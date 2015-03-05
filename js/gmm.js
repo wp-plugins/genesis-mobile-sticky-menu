@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 		$( '.genesis-mobile-menu' ).css( 'marginLeft', '-' + width + 'px' );
 		$( '.genesis-mobile-menu' ).css( 'width', width + 'px' );
 		$( 'html' ).css( 'backgroundPosition', (width - 9) + 'px 0' );
-		if( $(window).width() < genesisMobileMenuBP.breakpoint && $('.nav-secondary').is(":visible") ) {
+		if( $(window).width() < genesisMobileMenuBP.breakpoint && $('.nav-primary').is(":visible") || $(window).width() < genesisMobileMenuBP.breakpoint && $('.nav-secondary').is(":visible") ) {
 			$( 'div.site-container' ).prepend( '<a class="toggle-menu"></a>' );
 			$( 'div.site-container' ).after( '<div class="genesis-mobile-menu"></div>' );
 			$('.nav-primary').clone().removeClass('nav-primary').addClass('nav-primary-mobile').appendTo(".genesis-mobile-menu");
@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 			$('.nav-primary').hide();
 			$('.nav-secondary').hide();
 		}
-		else if( $(window).width() > genesisMobileMenuBP.breakpoint && $('.nav-secondary').is(":hidden") ) {
+		else if( $(window).width() > genesisMobileMenuBP.breakpoint && $('.nav-primary').is(":hidden") || $(window).width() > genesisMobileMenuBP.breakpoint && $('.nav-secondary').is(":hidden") ) {
 			$('.toggle-menu').remove();
 			$('.genesis-mobile-menu').remove();
 			$('.nav-primary').show();
