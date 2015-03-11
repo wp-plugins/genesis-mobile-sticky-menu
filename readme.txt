@@ -48,9 +48,9 @@ Yes, you can use WPML String translation.
 
 == Screenshots ==
 
-`/assets/gmm-ss.jpg`
-`/assets/gmm-ss1.jpg`
-`/assets/gmm-ss2.jpg`
+1. Settings
+2. Hamburger style mobile menu
+3. Sticky navigation
 
 == Changelog ==
 
