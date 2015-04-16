@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: genesis, genesis framework, hamburger, mobile, mobile menu, sticky menu, sticky, top menu, stick to top
 Requires at least: 4.0
 Tested up to: 4.1.1
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2
 
 Hamburger style sliding off-canvas mobile menu and sticky menu for Genesis framework.
@@ -48,33 +48,31 @@ Yes, you can use WPML String translation.
 
 == Screenshots ==
 
-`/assets/gmm-ss.jpg`
-`/assets/gmm-ss1.jpg`
-`/assets/gmm-ss2.jpg`
+1. Settings
+2. Hamburger style mobile menu
+3. Hamburger on small screen
+4. Active menu when clicking on hamburger icon
+5. Sticky navigation
 
 == Changelog ==
 
-= 1.2 =
+= 1.2.1 =
 *Release Date - 5th March, 2015*
 
+* Small fix to .js file since mobile menu would not work if secondary nav is not used.
+
+= 1.2 =
+*Release Date - 3rd March, 2015*
+
+* First release at wordpress.org.
 * added check to see if Genesis framework is active.
 * deactivating plugin when Genesis or Genesis child theme is not active.
 * check if user is allowed to activate plugin.
 * some more security additions.
-
-= 1.1 =
-*Release Date - 3th March, 2015*
-
 * Possibility to translate plugin.
-
-= 1.0 =
-*Release Date - 1st March, 2015*
-
-* First public release.
 * added option to choose which menu to make sticky.
 
 == Upgrade Notice ==
 
-= 1.2 =
-Added check to see if Genesis framework is installed and active.
-Added security check on activation.
+= 1.2.1 =
+Small fix to .js file since mobile menu would not work if secondary nav is not used.
